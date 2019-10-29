@@ -1,224 +1,360 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
-    <link rel="shortcut icon" type="image/png" href="imgs/favicon.ico" />
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+<html class="no-js"> <!--<![endif]-->
+    <head>
+        <title>Pixel</title>
+
+        <!-- meta -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font_icon/css/pe-icon-7-stroke.css">
+        <link rel="stylesheet" href="assets/font_icon/css/helper.css">
+        <!-- <link rel="stylesheet" href="assets/css/owl.carousel.css"> -->
+        <!-- <link rel="stylesheet" href="assets/css/owl.theme.css"> -->
+        <!-- <link rel="stylesheet" href="assets/css/animate.css"> -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- google fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500|Lato:300,400,700,900,300italic,400italic,700italic,900italic|Raleway:400,200,300,500,100|Titillium+Web:400,200,300italic,300,200italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-</head>
 
-<body>
+        <script src="assets/js/modernizr.js"></script>
 
-    <div class="landing">
-
-        <nav style="background-image: url('https://i.pinimg.com/originals/23/09/13/230913a86ddd5b60a5a08ee49ebb11fe.png')"
-            class="navbar navbar-expand-lg navbar-light shadow-sm">
-            <img width="15%" class="navbar-brand" src="imgs/favicon.ico">
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a style="color: #fff;" class="nav-link" href="#about">About <span class="sr-only"></span></a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a style="color: #fff;" class="nav-link" href="#skills">Skills</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a style="color: #fff;" class="nav-link" href="#projects">Projects</a>
-                    </li>
-
-                    <li>
-                    <li><a style="color: #fff;" class='nav-link' href="#contact">Contact</a>
-
-                    </li>
-                    </li>
-
-                </ul>
-
+    </head>
+    <body id="body">
+       
+        <!-- Header area -->
+        <header id="header">
+            <div class="center text-center">
+                <h1 class="bigheadline">Sarah Munini</h1>
+                <h4 class="subheadline">Full Stack Software Developer</h4>
             </div>
-        </nav>
+            <br><br><br>
+            <h4 style="text-align: center; " class="mojojojo">
+                    <a style="color:#fff; font-size:2em;" href="" class="typewrite" data-period="3000"
+                        data-type='[ "Code will, uh, find a way...", "May the force be with you...", "Live long and prosper...", "One ring to rule them all...", "Do not let the muggles get you down!" ]'>
+                        <span class="wrap"></span>
+                    </a>
+                </h4>
+            <div class="bottom">
+                <a data-scroll href="#navigation" class="scrollDown animated pulse" id="scrollToContent"><i class="pe-7s-angle-down-circle pe-va"></i></a>
+            </div>
+        </header>
 
+        <!-- Navigation area -->
+        <section id="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="logo"><a data-scroll href="#body" class="logo-text">Pixel</a></div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="nav">
+                            <a href="#" data-placement="bottom" title="Menu" class="menu" data-toggle="dropdown"><i class="pe-7s-menu"></i></a>
+                             <div class="dropdown-menu">
+                                 <div class="arrow-up"></div>
+                                 <ul>
+                                     <li><a data-scroll href="#body">Home <i class="pe-7s-home"></i></a><span class="menu-effect"></span></li>
+                                     <li><a data-scroll href="#about">About<i class="pe-7s-id"></i></a><span class="menu-effect"></span></li>
+                                     <li><a data-scroll href="#services">Skills <i class="pe-7s-config"></i></a><span class="menu-effect"></span></li>
+                                     <li><a data-scroll href="#portfolio">Portfolio <i class="pe-7s-glasses"></i></a><span class="menu-effect"></span></li>
+                                     <li><a data-scroll href="#contact">Contact <i class="pe-7s-help1"></i></a><span class="menu-effect"></span></li>
+                                 </ul>
+                             </div>
+                        </div>
+                    </div>
 
-        <h1 style="font-size: 4em;">SARAH MUNINI</h1>
-        <h1 style="font-size: 4em;">FULL STACK WEB DEVELOPER</h1>
+                </div>
+            </div>            
+        </section>
+        
+        <!-- Content Area -->
 
-        <h1 class="mojojojo">
-            <a href="" class="typewrite" data-period="3000"
-                data-type='[ "Code will, uh, find a way...", "May the force be with you...", "Live long and prosper...", "One ring to rule them all...", "Do not let the muggles get you down!" ]'>
-                <span class="wrap"></span>
-            </a>
-        </h1>
-    </div>
-    <br><br>
-    <div class="row">
-        <div class="col-md-2"></div>
-        <div id="about" class="col-md-8 about card">
-            <h1>ABOUT ME</h1>
-            <p>
-                I am a fullstack Software Developer.
-                My aim is to build systems that can have an impact in today's fast moving world of technology.
-                <br><br>
-                I also have a unique ability to combine technical and innovative problem solving skills with business
-                savvy and effective personal communication skills. I love working with technology and people to solve
-                problems.
-                <br><br>
-                My curiosity in this field has allowed me to work with programming languages including frameworks as
-                shown in the skills section. These languages enable me to build RESTful services and at the same time
-                modern intuitive interfaces.
-                <br><br>
-                In my free time, I listen to music, play console and video games, take long rides or read a good book.
-                <br>
-                I am a learner.
-            </p>
+        <!-- About Section -->
+        <section id="about" class="mapWrap">
+                <div id="contact-area">
+                    <div class="container">
+                        <h2 class="block_title">About Me</h2>
+                        <div class="row">
+                            <div class="col-xs-12">
+                            </div>
+                           
+                            <div class="col-sm-12">
+                                <form role="form">
+                                  <div class="form-group">
+                                    <h4 style="font-size: 1.5em; color: #fff;" class="form-control con-title">
+                                            I am a fullstack Software Developer.
+                                            My aim is to build systems that can have an impact in today's fast moving world of technology.
+                                            <br><br>
+                                            I also have a unique ability to combine technical and innovative problem solving skills with business
+                                            savvy and effective personal communication skills. I love working with technology and people to solve
+                                            problems.
+                                            <br><br>
+                                            My curiosity in this field has allowed me to work with programming languages including frameworks as
+                                            shown in the skills section. These languages enable me to build RESTful services and at the same time
+                                            modern intuitive interfaces.
+                                            <br><br>
+                                            In my free time, I listen to music, play console and video games, take long rides or read a good book.
+                                            <br>
+                                            I am a learner.
+                                        </h4>
+                                  </div>
+                                 
+                                </form>   
+                            </div>
+                        </div>
+                    </div><!-- container -->
+                </div><!-- contact-area -->
+               <!-- social -->
+            </section>
 
-        </div>
-        <div class="col-md-2"></div>
-    </div>
-    <br>
-    <br>
+        <!-- services section -->
 
-    <div class="row">
-        <div class="col-md-2"></div>
-
-        <div id="skills" class="col-md-8 skills">
-            <h1 style="padding-bottom: 2%; ">SKILLS</h1>
-            <img width="7%" src="imgs/html.png" alt="html">
-            <img width="7%" src="imgs/css.png" alt="css">
-            <img width="10%" src="imgs/javascript.png" alt="javascript">
-            <img width="10%" src="imgs/angularjs.png" alt="angularjs">
-            <img width="10%" src="imgs/python.png" alt="python">
-            <img width="10%" src="imgs/django.png" alt="django">
-            <img width="10%" src="imgs/flask.png" alt="flask">
-            <img width="10%" src="imgs/postgresql.png" alt="postgresql">
-            <img width="10%" src="imgs/database.png" alt="database">
-        </div>
-        <div class="col-md-2"></div>
-
-    </div>
-
-    <br><br>
-
-    <div id="projects" class="projects ">
-        <h1>PROJECTS</h1>
-        <div class="row">
-            <div class="col-md-4 card" style="width: 18rem;">
-                <img src="imgs/Screenshot from 2019-09-09 08-56-36.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 style='font-weight:bold;' class="card-title">Tribune</h5>
-                    <p class="card-text">Allows users to post latest news and get them viewed by others. Users can also
-                        subscribe to get latest articles.</p>
-                    <a href="https://pixeltribune.herokuapp.com/" style="color:#fff;"
-                        class="btn btn-outline-success">View Site</a>
+        <section id="services" class="service-area">
+            <div class="container">
+                <h2 class="block_title">Skills</h2>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="services">
+                            <div class="service-wrap"> <br><br>   
+                                    <img width="20%" src="assets/images/html.png" alt="html">
+                                <h3>HML & CSS</h3>
+                                <img width="20%" src="assets/images/css.png" alt="css">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="services">
+                            <div class="service-wrap"><br><br>
+                                    <img width="20%" src="assets/images/javascript.png" alt="javascript">
+                                <h3>Javascript (including Jquery & AngularJs)</h3>
+                                <img width="20%" src="assets/images/jquery.png" alt="javascript"> & <img width="20%" src="assets/images/angularjs.png" alt="angularjs">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="services">
+                            <div class="service-wrap"><br><br>
+                                    <img width="20%" src="assets/images/python.png" alt="python">
+                                <h3>Pyhton (including Django & Flask)</h3>
+                                <img width="20%" src="assets/images/django.png" alt="django"> & <img width="20%" src="assets/images/flask.png" alt="flask">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="services">
+                            <div class="service-wrap"><br><br>
+                                    <img width="20%" src="assets/images/postgresql.png" alt="postgresql">
+                                <h3>PostgreSQL & Database</h3>
+                                <img width="20%" src="assets/images/database.png" alt="database">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4 card" style="width: 18rem;">
-                <img src="imgs/Screenshot from 2019-09-25 10-27-27.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 style='font-weight:bold;' class="card-title">Gallery</h5>
-                    <p class="card-text">An application where a single django administrator can upload and display
-                        images and filter them by their category or location.</p>
-                    <a href="https://gartllery.herokuapp.com/categories" style="color:#fff;"
-                        class="btn btn-outline-success">View Site</a>
+        </section><!-- services -->
+
+        <!-- Portfolio Area -->
+
+        <section id="portfolio" class="portfolio-area">
+            <div class="container">
+                <h2 class="block_title">Projects</h2>
+                <div class="row port cs-style-3">
+                    <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                        <figure>
+                            <img src="assets/images/Screenshot from 2019-09-09 08-56-36.png" alt="tribune">
+                            <figcaption>
+                                <h3>Tribune</h3>
+                                <a href="https://pixeltribune.herokuapp.com/" class="button" target="blank">Take a look</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                        <figure>
+                            <img src="assets/images/Screenshot from 2019-09-25 10-27-27.png" alt="gallery">
+                            <figcaption>
+                                <h3>Gallery</h3>
+                                <a href=" https://gartllery.herokuapp.com/categories" class="button" target="blank">Take a look</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                        <figure>
+                            <img src="assets/images/Screenshot from 2019-09-25 10-27-51.png" alt="blog">
+                            <figcaption>
+                                <h3>Blog</h3>
+                                <a href=" https://pixelog.herokuapp.com/" class="button" target="blank">Take a look</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                    <div class="row port cs-style-3">
+                    <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                        <figure>
+                            <img src="assets/images/Screenshot from 2019-09-25 10-32-56.png" alt="pizza">
+                            <figcaption>
+                                <h3>Pizza Peddler</h3>
+                                <a href="https://pixel-0.github.io/the-pizza-peddler/" class="button" target="blank">Take a look</a>
+                            </figcaption> 
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                        <figure>
+                            <img src="assets/images/Screenshot from 2019-09-25 10-32-14.png" alt="movies">
+                            <figcaption>
+                                <h3>Watchlist</h3>
+                                <a href="https://aurry.herokuapp.com/" class="button" target="blank">Take a look</a>
+                            </figcaption> 
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                        <figure>
+                            <img src="assets/images/Screenshot from 2019-09-25 10-32-20.png" alt="github">
+                            <figcaption>
+                                <h3>Github Search</h3>
+                                <a href="https://vigilant-keller-310ee9.netlify.com/" class="button"target="blank">Take a look</a>
+                            </figcaption> 
+                        </figure>
+                        
+                    </div>
+                   
+                </div>
+            </div><!-- container -->
+        </section><!-- portfolio -->
+
+        <!-- Contact Area -->
+
+        <section id="contact" class="mapWrap">
+            <div id="contact-area">
+                <div class="container">
+                    <h2 class="block_title">Hey !!!</h2>
+                    <div class="row">
+                        <div class="col-xs-12">
+                        </div>
+                        <div class="col-sm-12">
+                            <h2 class="con-title">Contact Me</h2>
+                            <form role="form">
+                              <div class="form-group">
+                                <h4 style="font-size: 1.5em;" class="form-control con-title">If you wanna get in touch, talk to me about a project collaboration or just say hi, send an email to <a style="color: #fff;" href="mailto:saramunini11@gmail.com" style="color:black;">saramunini11@gmail.com</a>
+                            and ~let's talk</h4>
+                              </div>
+                             
+                            </form>   
+                        </div>
+                    </div>
+                </div><!-- container -->
+            </div><!-- contact-area -->
+            <div id="social">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <ul class="scoialinks">
+                                <li class="normal-txt">Find me on</li></ul>
+                                <div class="col-md-5 col-xs-4"></div>
+                                <a class="footer-link" target="blank" href="https://www.linkedin.com/in/saramunini"><i style="color: #000; font-size:3em;"
+                                    class="fab fa-linkedin fa-1.25x"></i></a>&nbsp&nbsp&nbsp
+                            <a class="footer-link col-md-1" target="blank" href="https://github.com/Pixel-0?tab=repositories"><i style="color: #000; font-size:3em;"
+                                    class="fab fa-github fa-1.25x"></i></a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div><!-- social -->
+        </section><!-- contact -->
+
+        <!-- Footer Area -->
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p class="copyright">© Copyright 2019 <a href="#" target="_blank">Sara Munini</a></p>
+                    </div>
+                   
                 </div>
             </div>
-            <div class="col-md-4 card" style="width: 18rem;">
-                <img src="imgs/Screenshot from 2019-09-25 10-27-51.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 style='font-weight:bold;' class="card-title">Blog</h5>
-                    <p class="card-text">An application that allows the writer to post their blogs and users to comment
-                        and like on them, it also displays random quotes.</p>
-                    <a href="https://pixelog.herokuapp.com/" style="color:#fff;" class="btn btn-outline-success">View
-                        Site</a>
-                </div>
-            </div>
-        </div>
-        <br><br>
-        <div class="row">
-            <div class="col-md-4 card" style="width: 18rem;">
-                <img src="imgs/Screenshot from 2019-09-25 10-32-56.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 style='font-weight:bold;' class="card-title">Pizza Peddler</h5>
-                    <p class="card-text">This program allow a user to create a custom pizza and shows the total of their
-                        order in a Cart. The user will also be prompted to enter their location if they want the pizza
-                        delivered for them. </p>
-                    <a href="https://pixel-0.github.io/the-pizza-peddler/" style="color:#fff;"
-                        class="btn btn-outline-success">View Site</a>
-                </div>
-            </div>
-            <div class="col-md-4 card" style="width: 18rem;">
-                <img src="imgs/Screenshot from 2019-09-25 10-32-14.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 style='font-weight:bold;' class="card-title">Watchlist</h5>
-                    <p class="card-text">An application that shows recent movies sowing in cinemas, popular movies and
-                        upcoming movies.</p>
-                    <a href="https://aurry.herokuapp.com/" style="color:#fff;" class="btn btn-outline-success">View
-                        Site</a>
-                </div>
-            </div>
-            <div class="col-md-4 card" style="width: 18rem;">
-                <img src="imgs/Screenshot from 2019-09-25 10-32-20.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 style='font-weight:bold;' class="card-title">Github Search</h5>
-                    <p class="card-text">This application enables the the user to input their favorite user's account
-                        name on github and search for it. It displays the number of repositories the account has and
-                        opens them in github when clicked.</p>
-                    <a href="https://vigilant-keller-310ee9.netlify.com/" style="color:#fff;"
-                        class="btn btn-outline-success">View Site</a>
-                </div>
-            </div>
-        </div>
-    </div>
+        </footer>
 
-    <br><br>
+        <script>
+            var TxtType = function(el, toRotate, period) {
+    this.toRotate = toRotate;
+    this.el = el;
+    this.loopNum = 0;
+    this.period = parseInt(period, 10) || 2000;
+    this.txt = '';
+    this.tick();
+    this.isDeleting = false;
+};
 
-    <div id="contact" class="contact row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8 card">
-            <h1>CONTACT</h1>
-            <p>If you wanna get in touch, talk to me about a project collaboration or just say hi,send an email to <a
-                    href="mailto:saramunini11@gmail.com" style="color:black;">saramunini11@gmail.com</a>
-                and ~let's talk.</p>
+TxtType.prototype.tick = function() {
+    var i = this.loopNum % this.toRotate.length;
+    var fullTxt = this.toRotate[i];
 
-            <div class="footer">
-                <footer id="contact" class="footer" style="font-size: 24px;">
-                    <a class="footer-link" href="https://www.linkedin.com/in/saramunini"><i
-                            class="fab fa-linkedin fa-1.25x"></i></a>&nbsp&nbsp&nbsp
-                    <a class="footer-link" href="https://github.com/Pixel-0?tab=repositories"><i
-                            class="fab fa-github fa-1.25x"></i></a>
-                    <br>
-                    <h5 class="copyright">© 2019 Munini </h5>
-                </footer>
-            </div>
-        </div>
-        <div class="col-md-2"></div>
-    </div>
-    <br><br>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
-    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-</body>
+    if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+    } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+    }
 
-<script>
+    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
-</script>
+    var that = this;
+    var delta = 200 - Math.random() * 100;
+
+    if (this.isDeleting) { delta /= 2; }
+
+    if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+    } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+    }
+
+    setTimeout(function() {
+    that.tick();
+    }, delta);
+};
+
+window.onload = function() {
+    var elements = document.getElementsByClassName('typewrite');
+    for (var i=0; i<elements.length; i++) {
+        var toRotate = elements[i].getAttribute('data-type');
+        var period = elements[i].getAttribute('data-period');
+        if (toRotate) {
+          new TxtType(elements[i], JSON.parse(toRotate), period);
+        }
+    }
+    // INJECT CSS
+    var css = document.createElement("style");
+    css.type = "text/css";
+    css.innerHTML = ".typewrite > .wrap { border-right: 1% solid #fff}";
+    document.body.appendChild(css);
+};
+
+
+        </script>
+
+        <!-- Necessery scripts -->
+        <script src="assets/js/jquery-2.1.3.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+        <script src="assets/js/jquery.actual.min.js"></script>
+        <script src="assets/js/smooth-scroll.js"></script>
+        <script src="assets/js/owl.carousel.js"></script>
+        <script src="assets/js/script.js"></script>
+
+    </body>
+</html>
+
